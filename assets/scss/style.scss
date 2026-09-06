@@ -1,0 +1,18 @@
+@import 'base/fonts';
+/*-------abstracts---------*/
+@import 'abstracts/variables';
+@import 'abstracts/colors';
+@import 'abstracts/mixins';
+
+@import "animation/animations";
+
+/*-------Base---------*/
+@import 'base/base';
+@import 'base/typography';
+
+/*---components------*/
+@import 'components/header';
+@import 'components/footer';
+
+@import 'views/page';
+@import 'views/breakpoints';

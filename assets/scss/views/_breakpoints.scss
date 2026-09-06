@@ -1,0 +1,323 @@
+// Large devices (desktops, less than 1200px)
+@media (max-width: 1200px) {
+}
+
+// Medium devices (tablets, less than 992px)
+@media (max-width: 992px) {
+}
+
+// Small devices (landscape phones, less than 768px)
+@media (max-width: 768px) {
+  .ap-header-wrapper {
+    li {
+      text-align: center;
+      a {
+        &::after {
+          display: none;
+        }
+      }
+    }
+  }
+  .navbar-toggler {
+    &:focus {
+      box-shadow: none;
+    }
+  }
+
+  .section-title {
+    font-size: 28px;
+  }
+
+  .section-heading {
+    font-size: 28px;
+  }
+
+  .header-title {
+    font-size: 20px;
+  }
+
+  .function-wrapper {
+    .dashed-line {
+      top: 30%;
+      left: 87%;
+      width: 43%;
+    }
+  }
+  .contact-us-section {
+    .contact-information {
+      .contact-form {
+        margin-top: 15px;
+      }
+    }
+  }
+
+  .financial-function-section {
+    .financial-functions {
+      #carouselExampleControls-sm {
+        .carousel-inner {
+          .card {
+            .card-img-top {
+              min-height: 462px;
+            }
+            .card-body {
+              position: absolute;
+              top: 0;
+              background-color: rgba(0, 0, 0, 0.6);
+              width: 100%;
+              height: 100%;
+              padding: 125px 30px;
+
+              .card-title {
+                color: $white-color;
+              }
+
+              .card-text {
+                color: $white-color;
+              }
+            }
+          }
+        }
+        .carousel-control-prev,
+        .carousel-control-next {
+          background-color: transparent;
+        }
+
+        .carousel-control-prev {
+          left: -50px;
+        }
+
+        .carousel-control-next {
+          right: -50px;
+        }
+      }
+    }
+  }
+
+  .news-announcements-section {
+    .news-carousel {
+      padding: 0 40px;
+      margin-bottom: 30px;
+      .carousel-control-prev {
+        left: -12%;
+      }
+      .carousel-control-next {
+        right: -12%;
+      }
+    }
+
+    .testimonial-carousel {
+      margin-top: 30px;
+      padding: 0 20px;
+    }
+  }
+
+  .about-us-section {
+    .more-about {
+      .tab-content {
+        margin-bottom: 20px;
+
+        .tab-pane {
+          .card {
+            .card-body {
+              padding: 40px;
+
+              h1 {
+                font-size: 28px;
+              }
+
+              p {
+                font-size: 16px;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .BOD-section {
+    .directors-section {
+      height: 100%;
+    }
+    .statistics-data {
+      .stat-list {
+        flex-wrap: wrap;
+
+        li {
+          margin-right: 30px;
+          margin-bottom: 40px;
+          width: auto;
+
+          h3 {
+            margin-top: 10px;
+          }
+        }
+      }
+    }
+  }
+
+  .offences-proseccution-section {
+    .para-text {
+      margin-top: 15px;
+    }
+    .offences-cards {
+      .card {
+        margin-bottom: 30px;
+      }
+    }
+  }
+
+  .control-regulation-section {
+    .regulation-panel {
+      .controlreg-card {
+        margin-bottom: 50px;
+      }
+    }
+  }
+
+  .user-charges-section {
+    .charges-panel {
+      .charges-list {
+        display: block;
+        padding-left: 0;
+        li {
+          margin-right: 0px;
+          margin-bottom: 50px;
+
+          .card {
+            margin: auto;
+          }
+
+          p {
+            width: 100% !important;
+            margin-top: 10px !important;
+          }
+
+          .h-line {
+            display: none;
+          }
+        }
+      }
+    }
+  }
+}
+
+// Extra small devices (portrait phones, less than 576px)
+@media (max-width: 576px) {
+  .header-title {
+    text-align: center;
+    margin-left: 0;
+  }
+
+  header {
+    .top-title {
+      margin-top: 0;
+    }
+
+    .main-header {
+      .navbar-brand {
+        text-align: center;
+      }
+    }
+  }
+
+  .banner-section {
+    padding: 30px 0;
+
+    .banner-heading {
+      margin: 0 0 35px 0;
+      font-size: 25px;
+      line-height: 55px;
+    }
+  }
+
+  .function-wrapper {
+    margin-bottom: 30px;
+    .function-title {
+      margin-top: 12px;
+    }
+
+    .dashed-line {
+      display: none;
+    }
+  }
+
+  .contact-us-section {
+    .contact-information {
+      .contact-card {
+        .card-image {
+          height: 264px;
+        }
+
+        .card-body {
+          padding: 20px 10px;
+        }
+      }
+      .contact-form {
+        margin-top: 15px;
+      }
+    }
+  }
+
+  .financial-function-section {
+    .financial-functions {
+      #carouselExampleControls-sm {
+        .carousel-inner {
+          .card {
+            .card-body {
+              padding: 120px 30px;
+            }
+          }
+        }
+
+        .carousel-control-prev {
+          left: -37px;
+        }
+
+        .carousel-control-next {
+          right: -37px;
+        }
+      }
+    }
+  }
+
+  .news-announcements-section {
+    .news-carousel {
+      .carousel-control-prev {
+        left: -14%;
+      }
+      .carousel-control-next {
+        right: -14%;
+      }
+    }
+  }
+
+  .about-us-section {
+    .more-about {
+      .tab-content {
+        margin-bottom: 20px;
+
+        .tab-pane {
+          .card {
+            .card-body {
+              padding: 30px;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .BOD-section {
+    .statistics-data {
+      .stat-list {
+        display: block;
+
+        li {
+          margin-right: 0px;
+          margin-bottom: 40px;
+        }
+      }
+    }
+  }
+}

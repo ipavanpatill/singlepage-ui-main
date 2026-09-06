@@ -1,0 +1,52 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Roboto:wght@400;500;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap");
+
+@mixin open-sans-regular {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+}
+
+@mixin open-sans-semi-bold {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 600;
+}
+
+@mixin open-sans-bold {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 700;
+}
+
+@mixin Roboto-regular {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+}
+
+@mixin Roboto-medium {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+}
+
+@mixin Roboto-bold {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+}
+
+@mixin poppins-regular {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+}
+
+@mixin poppins-medium {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+}
+
+@mixin poppins-semi-bold {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+}
+
+@mixin poppins-bold {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+}

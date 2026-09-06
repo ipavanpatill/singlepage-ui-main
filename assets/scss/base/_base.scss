@@ -1,0 +1,158 @@
+/**
+ * Make all elements inherit from `html` box-sizing
+ */
+* {
+  box-sizing: inherit;
+  outline: 0;
+  box-shadow: none;
+}
+
+/**
+   * Redefine box-sizing on the root element
+   */
+html {
+  box-sizing: border-box;
+  height: 100%;
+  min-height: 100%;
+  scroll-behavior: smooth;
+}
+
+/**
+   * Basic typography styles
+   */
+body {
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  @include open-sans-regular;
+  font-size: 14px;
+  color: $black-color;
+  height: auto;
+  width: 100%;
+}
+
+a {
+  text-decoration: none;
+}
+
+.BRAND-wrapper {
+  background-image: url("../../assets/images/homepage-banner.jpg");
+  // background-blend-mode: overlay;
+  // background-color: $color-overlay;
+  background-size: cover;
+  background-position: center;
+  height: 100%;
+  width: 100%;
+  // margin-right: auto; /* 1 */
+  // margin-left:  auto; /* 1 */
+  // max-width: 960px; /* 2 */
+}
+
+.BRAND-contact-wrapper {
+  background-image: url("../../assets/images/Contact-us.png");
+  background-size: cover;
+  background-position: center;
+  height: 100%;
+  width: 100%;
+}
+
+.BRAND-planning-wrapper {
+  background-image: url("../../assets/images/Planning-and-development.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 100%;
+  width: 100%;
+}
+
+.BRAND-functions-wrapper {
+  background-image: url("../../assets/images/Financial-Functions-Banner.png");
+  background-size: cover;
+  background-position: center;
+  height: 100%;
+  width: 100%;
+}
+
+.BRAND-administrative-wrapper {
+  background-image: url("../../assets/images/Administrative-functions.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 100%;
+  width: 100%;
+}
+
+.BRAND-news-announcements-wrapper {
+  background-image: url("../../assets/images/News-and-announcemnets.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 100%;
+  width: 100%;
+}
+
+.BRAND-about-us-wrapper {
+  background-image: url("../../assets/images/About-us-banner.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 100%;
+  width: 100%;
+}
+
+.BRAND-BOD-wrapper {
+  background-image: url("../../assets/images/BOD-banner.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 100%;
+  width: 100%;
+}
+
+.BRAND-internal-wrapper {
+  background-image: url("../../assets/images/internal-page-banner.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 100%;
+  width: 100%;
+}
+
+.BRAND-proseccution-wrapper {
+  background-image: url("../../assets/images/Offences-Proseccution-banner.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 100%;
+  width: 100%;
+}
+.BRAND-user-charges-wrapper {
+  background-image: url("../../assets/images/User-Charges.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 100%;
+  width: 100%;
+}
+
+.BRAND-controlreg-wrapper {
+  background-image: url("../../assets/images/control-regulations.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 100%;
+  width: 100%;
+}
+
+.BRAND-btn {
+  color: $white-color;
+  @include poppins-semi-bold;
+  font-size: 14px;
+  letter-spacing: 0;
+  line-height: 32px;
+  text-align: center;
+  height: 45px;
+  width: 175px;
+  border-radius: 22.5px;
+  background-color: $color-yellow;
+  border: none;
+  margin-top: 50px;
+  transition: all 0.3s ease 0s;
+  &:hover {
+    background-color: $color-yellow;
+    box-shadow: 0 0 20px rgba(42, 171, 210, 0.2) !important;
+  }
+  &:focus {
+    background-color: $color-yellow;
+  }
+}
